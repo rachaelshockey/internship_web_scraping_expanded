@@ -18,6 +18,13 @@ I hypothesized (before reading the 2016 report from NACE) that only about 20% of
 
 ### Background
 
+Nearly ten years ago, Ross Perlin, author of *Intern Nation: How to Earn Nothing and Learn Little in the Brave New Economy*, estimated that U.S. employers hire for 1.5 million internships each year, and that approximately half of those internships are unpaid. More recently, in 2016, the National Association of Colleges and Employers (NACE) estimated that [around 60% of U.S. interns are paid, with most unpaid opportunities coming from social service fields](https://sites.sju.edu/careers/files/the-impact-of-unpaid-internships-on-career-development.pdf). NACE research on the topic of U.S. internships has also revealed that [college students who complete paid internships have far more favorable post-college employment outcomes than those who only complete unpaid internships](https://www.theatlantic.com/business/archive/2013/06/do-unpaid-internships-lead-to-jobs-not-for-college-students/276959/). In addition to offering interns less resume-building value than paid opportunities do, there are enduring concerns about the [equity](https://www.usnews.com/opinion/knowledge-bank/articles/2016-04-04/education-or-exploitation-should-all-internships-be-paid) and [legality](https://www.shrm.org/resourcesandtools/legal-and-compliance/employment-law/pages/is-your-unpaid-internship-program-legal.aspx) of unpaid internships. 
+
+Despite all of this, unpaid internships still abound in the U.S. Meanwhile, young adults (ages 16-24) are facing unprecedented unemployment rates during the COVID-19 pandemic. The Bureau of Labor Statistics reported the following update on youth unemployment in summer 2020:
+
+> Typically, the number of unemployed young people increases between April and July, as people who were not in the labor force while attending school begin seeking 
+> employment. However, this year unemployment increased sharply in April because of the coronavirus pandemic. The number of unemployed youth rose from 1.7 million in February > to 4.9 million in May, and declined to 4.0 million in July. In July 2020, there were 1.9 million more unemployed 16- to 24-year-olds than in July 2019. About two-thirds of > the unemployed youth in July 2020 were looking for full-time work, a similar percentage to a year earlier.
+
 ### Analysis Steps
 
 ### Conclusions

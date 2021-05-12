@@ -45,6 +45,8 @@ After running my web scraping function multiple times to get adequate data for t
 
 ![](Screenshot_pandas_df.png)
 
+Using pandas functions, I found that there are 222 internship records in the dataframe with salary information, about 43% of all records in the dataset, which is much higher than I originally hypothesized, but also much lower than the 60% reported by the National Association of Colleges and Employers in 2016. I then looked at counts and descriptive stats for paid internships by location and by salary period category (hourly, daily, weekly, monthly, and annually are all represented in the dataset!). 
+
 ![](Screesnshot_pandas_geo_output.png)
 
 ### Conclusions

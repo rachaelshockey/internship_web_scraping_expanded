@@ -30,10 +30,22 @@ As of May 2021, the unemployment rate for this age bracket is still quite high a
 ### Analysis Steps
 
 #### Step 1) Getting the Data
+The first step of this project was to use BeautifulSoup to collect the results of a search on Indeed.com for "intern" postings in the U.S. This step was extremely time consuming because 1) connecting with Indeed.com to run a web-scraping program tends to trigger captcha checkpoints that disrupt the program and 2) many postings on Indeed are reposted within a short timeframe, so there were *many* duplicate records in the original version of the dataset. 
+
+To deal with the captcha roadblocks, I incorporated Python's `time` module to add a 2-second pause between iterations of the web scraping loop. In order to get enough unique records for analysis, I ran multiple calls of the `parse_web_data` function on multiple days in the last week of April. April was an ideal time to gather this data, since according to Indeed, this is the peak month for internship postings each calendar year (since most internships occur over the summer). 
+
+My web scraping function ultimately exported the scraped data to a csv file so that the data can be quickly imported for analysis later and the web scraping function does not need to be run again. After exporting this data to multiple csv files, I imported them back into Python and combined them. 
 
 #### Step 2) Cleaning and Normalizing the data
+After running my web scraping function multiple times to get adequate data for this analysis, I used the pandas module to import the csv data files into pandas dataframes. The function below then concatenates all of the separate dataframes into one, and drops all duplicate records from the final dataframe. This left me with 511 unique records. Based on the total sample size of about 40,000 postings on Indeed.com during this timeframe, a sample size of 511 allows for a confidence level of 95% and a confidence interval of 5. Since so many of the 40,000 records seemed to be duplicates, the actual confidence level may be higher. 
+
+![](images/Screenshot_data_cleaning.png)
 
 #### Step 3) Analyzing the Data
+
+![](images/Screenshot_pandas_df.png)
+
+![](images/Screesnshot_pandas_geo_output.png)
 
 ### Conclusions
 

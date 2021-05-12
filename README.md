@@ -39,13 +39,13 @@ My web scraping function ultimately exported the scraped data to a csv file so t
 #### Step 2) Cleaning and Normalizing the data
 After running my web scraping function multiple times to get adequate data for this analysis, I used the pandas module to import the csv data files into pandas dataframes. The function below then concatenates all of the separate dataframes into one, and drops all duplicate records from the final dataframe. This left me with 511 unique records. Based on the total sample size of about 40,000 postings on Indeed.com during this timeframe, a sample size of 511 allows for a confidence level of 95% and a confidence interval of 5. Since so many of the 40,000 records seemed to be duplicates, the actual confidence level may be higher. 
 
-![](internship_web_scraping_expanded/Screenshot_data_cleaning.png)
+![](Screenshot_data_cleaning.png)
 
 #### Step 3) Analyzing the Data
 
-![](internship_web_scraping_expanded/Screenshot_pandas_df.png)
+![](Screenshot_pandas_df.png)
 
-![](internship_web_scraping_expanded/Screesnshot_pandas_geo_output.png)
+![](Screesnshot_pandas_geo_output.png)
 
 ### Conclusions
 

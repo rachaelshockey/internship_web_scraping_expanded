@@ -14,7 +14,7 @@ For this project, I set out to look at a snapshot of internship listings (posted
 * Geographically, where are paid internships concentrated?
 * Are certain industries more likely to pay their interns than others?
 
-I hypothesized (before reading the 2016 report from NACE) that only about 20% of internship postings would be paid opportunities, that most paid opportunities would offer around $15 per hour, that paid opportunities would be concentrated in urban areas with high costs of living (NYC, the Bay Area, Chicago, and D.C), and that most of the paid opportunities would be in the fields of web development/engineering and finance. I backed away from the industry-related inquiry after realizing that, in this time of social distancing, it appears that the industries hiring interns right now are mostly ones where remote work is possible. For example, Indeed's Hiring Lab recently reported that [the percentage all marketing internships that offer remote work jumped from 14.3\% to 45.3\% during the pandemic](https://www.hiringlab.org/2021/04/27/remote-internships-jump-during-pandemic/).
+I hypothesized (before reading the 2016 report from NACE) that only about 20% of internship postings would be paid opportunities, that most paid opportunities would offer around \$15 per hour, that paid opportunities would be concentrated in urban areas with high costs of living (NYC, the Bay Area, Chicago, and D.C), and that most of the paid opportunities would be in the fields of web development/engineering and finance. I backed away from the industry-related inquiry after realizing that, in this time of social distancing, it appears that the industries hiring interns right now are mostly ones where remote work is possible. For example, Indeed's Hiring Lab recently reported that [the percentage all marketing internships that offer remote work jumped from 14.3\% to 45.3\% during the pandemic](https://www.hiringlab.org/2021/04/27/remote-internships-jump-during-pandemic/).
 
 ### Background
 
@@ -54,7 +54,7 @@ Using pandas functions, I found that there are 222 internship records in the dat
 * Among 511 unique postings for internships featured on Indeed.com in the last week of April 2021, 43\% (222) were paid opportunities.
 * Among the paid opportunities, more than half (67\%) offered an hourly wage ranging between \$10 and \$20. 
 * About half of all remote-based internships posted to Indeed in this timeframe were paid opportunities. Additionally, about half of all internships in populous states like California, Texas, and Florida were paid. Remote-based positions were more likely to be paid than those based in any specific U.S. location. 
-* Internships offering annual salaries had more variation in pay rate than those in any other salary period category, with a min of \\$15,000, a max of \\$65,000, and a stadard deviation of \\$11,578.  
+* Internships offering annual salaries had more variation in pay rate than those in any other salary period category, with a min of \$15,000, a max of \$65,000, and a stadard deviation of \$11,578.  
 
 ### Limitations
 
